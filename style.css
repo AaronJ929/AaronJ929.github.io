@@ -1,0 +1,191 @@
+/*selector {
+	property:  value;
+}*/
+
+/* -------------------- General Styles -------------------- */
+
+* {
+	background-color: black;
+	color: white;
+}
+
+a {
+	text-decoration: none;
+	background: none;
+}
+
+a:hover {
+	color: #0b6d99;
+}
+
+a:active {
+	text-decoration: none;
+}
+
+a:visited {
+	text-decoration: none;
+}
+
+body {
+	padding: 50px 50px;
+	font-family: copperplate;
+	font-size: 16pt;
+	text-align: left;
+}
+
+button {
+	display: flex;
+	margin: 0 auto;
+	font-family: copperplate;
+	font-size: 1em;
+	color: white;
+	padding: 10px 10px 10px 10px;
+	border-width: 5px;
+	background-color: #0b6d99;
+}
+
+button:hover {
+	background-color: white;
+	color: black;
+	cursor: pointer;
+}
+
+h1 {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	color: white;
+	text-align: center;
+	font-family: copperplate;
+	font-size: 28pt;
+	border: 10px outset;
+	border-color: #0b6d99;
+	max-width: 700px;
+	margin: 0 auto;
+}
+
+li {
+	display: inline;
+}
+
+nav {
+	text-align: center;
+	font-size: 14pt;
+	font-family: copperplate;
+}
+
+.about-text,.home-text {
+	padding: 0 200px 0 200px;
+	text-align: left;
+}
+
+.copyright {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-top: 300px;
+	font-size: 0.75em;
+}
+
+/* -------------------- Index -------------------- */
+
+.home-page {
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 250px;
+/* Add Fade In to Header */
+}
+
+.enter {
+	display: block;
+	border-radius: 50px;
+ /* Add Fade In to Button */
+}
+
+/* -------------------- About Page -------------------- */
+
+img {
+	width: 300px;
+	height: 200px;
+	margin: 10px;
+}
+
+.caption {
+	display: block;
+	flex-wrap: wrap;
+}
+
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+.family {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 500px;
+	height: 400px;
+}
+
+/* -------------------- Portfolio Page -------------------- */
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: 10px;
+}
+
+.portfolio {
+	transition: all 1s;
+}
+
+.portfolio-text {
+	text-align: center;
+}
+
+.portfolio:hover {
+	transform: scale(1.1);
+}
+
+/* -------------------- Contact Me Page -------------------- */
+
+fieldset {
+	display: flex;
+	flex-wrap: wrap;
+	width: 300px;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+label {
+	padding: 3px;
+}
+
+legend {
+	text-align: center;
+}
+
+textarea {
+	border: solid black;
+}
+
+textarea,
+.input {
+	background-color: white;
+}
+
+.input {
+	width: 410px;
+	padding: 5px 5px 5px 5px;
+}
+
+.reg-form {
+	display: block;
+	flex-wrap: wrap;
+	justify-content: center;
+}

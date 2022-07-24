@@ -1,0 +1,10 @@
+HTML
+	<figure> and <figcaption> to add captions underneath different content
+	- Placeholder Attribute - Used to give people a hint as to what to enter into an input
+	- Adding <button> - The default behavior of clicking a form button without an attributes set to it will submit the form tot he location specified in the form's action attribute.
+	- "rel" attribute is the relationship between a current document and the document it linked to.
+	- <meta name="viewport" content="width=device-width, intial scale=1.0"> ensures page styling looks the same on mobile as it would desktop/laptop
+
+CSS:
+	Transitions and Transforms on CSS-Tricks for cool effects.
+	 - Use transitions in conjunction with transforms as it will make the animations look cleaner. "Transform" should be used first.
